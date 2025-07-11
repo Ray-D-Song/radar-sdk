@@ -1,4 +1,4 @@
-import { isString } from 'radash';
+import { isString } from 'lodash-es';
 
 export function isJSONString(value: any): boolean {
   if (!isString(value)) {
