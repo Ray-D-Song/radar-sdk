@@ -1,4 +1,4 @@
-import { isString, isObject, isFunction, isArray, isDate } from 'lodash-es';
+import { isObject, isFunction, isArray, isDate } from 'lodash-es';
 
 export function parseURL(url: string): URL {
   return new URL(url, window.location.href);
